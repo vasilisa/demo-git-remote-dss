@@ -220,7 +220,7 @@
       }
     }
   },
-  "name": "Haiku Starter for Vasilisa",
+  "name": "Haiku Starter Vasilisa Git Demo",
   "projectStatus": "Sandbox",
   "imgPattern": 8,
   "metrics": {
@@ -278,11 +278,11 @@
     }
   },
   "versionTag": {
-    "versionNumber": 138,
+    "versionNumber": 139,
     "lastModifiedBy": {
       "login": "admin"
     },
-    "lastModifiedOn": 1646906241206
+    "lastModifiedOn": 1646906274688
   },
   "creationTag": {
     "versionNumber": 0,
