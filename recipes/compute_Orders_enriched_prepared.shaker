@@ -264,6 +264,21 @@
       "preview": false,
       "metaType": "PROCESSOR",
       "disabled": false,
+      "type": "DateDifference",
+      "params": {
+        "output": "dummycolumn",
+        "input2": "order_date",
+        "outputUnit": "YEARS",
+        "input1": "pages_visited",
+        "compareTo": "COLUMN",
+        "reverse": false
+      },
+      "alwaysShowComment": false
+    },
+    {
+      "preview": false,
+      "metaType": "PROCESSOR",
+      "disabled": false,
       "type": "MinMaxProcessor",
       "params": {
         "upperBound": "102.0",
@@ -280,6 +295,24 @@
   "previewMode": "ALL_ROWS",
   "vizSampling": {
     "_refreshTrigger": 0,
+    "selection": {
+      "useMemTable": false,
+      "filter": {
+        "distinct": false,
+        "enabled": false
+      },
+      "latestPartitionsN": 1,
+      "maxRecords": -1,
+      "ordering": {
+        "rules": [],
+        "enabled": false
+      },
+      "withinFirstN": -1,
+      "partitionSelectionMethod": "ALL",
+      "targetRatio": 0.02,
+      "maxReadUncompressedBytes": -1,
+      "samplingMethod": "FULL"
+    },
     "autoRefreshSample": false
   },
   "analysisColumnData": {},
@@ -288,6 +321,7 @@
     "ip_address_geopoint": 183,
     "birthdate": 183,
     "gender": 100,
+    "dummycolumn": 100,
     "user_agent_os": 113,
     "ip_address_country": 169,
     "order_number": 105,
@@ -308,7 +342,8 @@
     "customer_id": 100,
     "order_id": 106,
     "dataset": 100,
-    "age": 100
+    "age": 100,
+    "age2": 100
   },
   "sorting": [],
   "globalSearchQuery": "",
