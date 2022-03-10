@@ -220,7 +220,8 @@
       }
     }
   },
-  "name": "Haiku Starter",
+  "name": "Haiku Starter for Vasilisa",
+  "projectStatus": "Sandbox",
   "imgPattern": 8,
   "metrics": {
     "probes": [],
@@ -277,11 +278,11 @@
     }
   },
   "versionTag": {
-    "versionNumber": 137,
+    "versionNumber": 138,
     "lastModifiedBy": {
       "login": "admin"
     },
-    "lastModifiedOn": 1646906236637
+    "lastModifiedOn": 1646906241206
   },
   "creationTag": {
     "versionNumber": 0,
